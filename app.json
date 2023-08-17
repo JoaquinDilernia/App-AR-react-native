@@ -4,10 +4,10 @@
     "slug": "AwesomeProject",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/AR PNG.png",
+    "icon": "./assets/AR1.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/AR.png",
+      "image": "./assets/AR1.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,16 +15,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.AwesomeProject"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/AR.png",
+        "foregroundImage": "./assets/AR1.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.AwesomeProject"
     },
     "web": {
-      "favicon": "./assets/AR.png"
-    }
+      "favicon": "./assets/AR1.png"
+    },
+    "scheme": "AwesomeProject-test"
+
   }
 }
